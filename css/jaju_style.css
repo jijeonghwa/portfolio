@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+html, body { height: 100%; }/* 브라우저의 높이값 인식 */
+body { font-family: 'Noto Sans KR', AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif; font-weight: 400; color: #5f5f5f; }
+
+/* header */
+header { width: 100%; height: 59px; background: #fff; position: fixed; z-index: 999;  font-size: 14px; }
+header .header_wrap { width: 1200px; height: 59px; margin: 0 auto; }
+
+h1 { padding: 17px 0; float: left; }
+nav { float: right; }
+.gnb { line-height: 59px; float: left; }
+.gnb > li { float: left; padding: 0 18px; height: 59px; }
+.gnb li:last-child { padding-right: 36px; }
+.gnb li a { color: #5f5f5f; }
+.gnb li a:hover { cursor: pointer; color: #000; }
+
+/* 서브 메뉴 */
+.list_wrap { position: absolute; top: 59px; float: left; z-index: 998; display: none; }
+.list_wrap ul { float: left; height: 40px; }
+.list_wrap li {	height: 40px; padding-right: 80px; }
+.list_wrap li a { color: #5f5f5f; }
+.list_wrap li a:hover { cursor: pointer; color: #000; }
+
+.login-box { line-height: 59px; float: left; }
+.login-box div { float: left; line-height: 59px; }
+.login-box i { padding: 0 15px; }
+.login-box i:hover { cursor: pointer; color: #000; }
+.icon:first-child:before { content: "|"; }
+.icon:nth-child(3):after { content: "|"; }
+.search input { border: none; border-bottom: 1px solid #c4c4c4; width: 120px; }
+.search i { padding-right: 3px; }
+
+/* 서브 메뉴 배경 */
+.sub_bg { width: 100%; height: 152px; background: rgba(255,255,255,.8); position: absolute; top: 59px; display: none; }
+
+
+/* 로그인 */
+.login_wrap { width: 100%; height: 70px; border-top: 1px solid #c4c4c4; border-bottom: 1px solid #c4c4c4; line-height: 70px; }
+.login { width: 892px; margin: 0 auto; }
+.sns { width: 393px; height: 70px; float: left; }
+.sns div { float: left; }
+.sns span { font-size: 14px; letter-spacing: 5px; padding-right: 25px; }
+.sns a { color: #5f5f5f; }
+.sns i { font-size: 24px; padding-right: 25px; }
+.sns i:hover { cursor: pointer; color: #000; }
+
+.newsletter { float: left; }
+.newsletter div { float: left; }
+.newsletter span { font-size: 14px; padding-right: 33px; }
+.newsletter .mail { line-height: 65px; }
+.newsletter input { width: 259px; height: 35px; text-indent: 15px; font-size: 12px; letter-spacing: 1.4px; color: #5f5f5f; padding: 0; border: 1px solid #c4c4c4; }
+.newsletter .btn { width: 79px; height: 37px; background: #c4c4c4; color: #fff; font-size: 12px; text-align: center; line-height: 37px; letter-spacing: 1.4px; margin-top: 16.5px; }
+.newsletter .btn:hover { background: #5f5f5f; }
+
+/* footer */
+footer { width: 100%; height: 380px; padding-top: 31px; font-size: 13px; }
+.footer_wrap { width: 892px; margin: 0 auto; }
+.footer_wrap div, ul { float: left; }
+.footer_wrap li a { display: inline-block; }
+.footer_wrap .logo { width: 85px; height: 21px; background: url(../images/ico_logo-grey.png); background-size: cover; margin-right: 308px; }
+.footer_wrap .content1 { width: 218px; height: 192px; }
+.footer_wrap .content1 li { width: 218px; height: 25px; }
+.footer_wrap .content2 { width: 172px; height: 192px; }
+.footer_wrap .content2 li { width: 172px; height: 25px; }
+.footer_wrap .content3 { width: 109px; height: 192px; }
+.footer_wrap .content3 li { width: 109px; height: 25px; }
+
+.footer_wrap p { text-align: center; clear: both; color: #9f9f9f; }
+.footer_wrap a { color: #5f5f5f; }
+.footer_wrap a:hover { cursor: pointer; color: #000; }
+.footer_wrap .portfolio { width: 200px; height: 50px; margin: 50px auto 30px; font-size: 16px; font-weight: 500; text-align: center; line-height: 50px; border: 1px solid #c4c4c4; float: none; transition: .6s; }
+.footer_wrap .portfolio a { color: #000; }
+.footer_wrap .portfolio:hover { background: #8a273c; }
+.footer_wrap .portfolio:hover a { color: #fff; }

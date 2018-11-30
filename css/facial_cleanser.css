@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+body { font-family: 'Noto Sans KR', AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif; font-weight: 300; position: relative; color: #464646; }
+
+header {  }
+h1 { position: absolute; top: 30px; left: 50%; transform: translateX(-50%); z-index:999; }
+h1 img { width: 136px; }
+
+nav { width: 783px; height: 20px; transform: rotate(-90deg); transform-origin: 100% 100%; position: absolute; top: 2.5%; right: 60px; z-index: 999; }
+nav ul li { float: right; font-size: 14px; font-weight: 400; text-align: center; padding-right: 40px; }
+nav ul li a { color: #464646; }
+nav li.on a, nav li:hover a { color: #fff; }
+nav li.on div, nav li:hover div { background: #fff; }
+nav ul li:first-child { padding-right: 0; }
+nav ul li div { height: 1px; margin-top: 5px; background: #464646; }
+
+.sub_menu { text-align: right; font-size: 14px; font-weight: 400; position: absolute; right: 110px; z-index: 998; background: rgba(0,0,0,.2); color: #fff; display: none;  }
+.sub_menu li { padding: 10px; }
+.sub_menu li:hover { background: rgba(0,0,0,.5); }
+
+.sub_menu_1 { top: 74.125px; }
+.sub_menu_2 { top: 170px; }
+.sub_menu_3 { top: 250px; }
+.sub_menu_4 { top: 365px; }
+.sub_menu_5 { top: 480px; }
+.sub_menu_6 { top: 565px; }
+.sub_menu_7 { top: 695px; }
+.sub_menu_8 { top: 775px; }
+
+.img_top { background: url(../images/bg1.jpg) no-repeat; width:100%; height: 1000px; background-position:50% 50%; background-size:cover; position: relative; }
+.img_top > p { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); text-align: center; color: #fff; font-size: 20px; font-weight: 400; line-height: 2; letter-spacing: 1px; word-spacing: 5px; }
+
+.scroll-wrap { position: absolute; left: 50%; bottom: 30px; transform: translateX(-50%); z-index: 996; }
+.scroll-wrap span { width: 30px; height: 30px; display: block; position: relative; margin-bottom: 30px; } 
+.scroll { overflow: hidden; height: 25px; }
+.scroll:before {content: ''; width: 15px; height: 15px; display:block; border: 2px solid #464646; border-right-width: 0; border-top-width: 0; transform: rotate(-45deg); position: absolute; bottom: 7px; left: 7px; }
+.scroll-wrap p { font-size: 14px; text-align: center; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); }
+
+.lyn_top_title { position:relative; margin:40px auto 0; max-width:1040px; text-align: center; }
+.lyn_top_title .tt_pivot { padding:48px 0 25px 0; text-align:center; }
+.lyn_top_title .stit { font-size:18px; margin-bottom: 10px; }
+.lyn_top_title .mtit { font-size:26px; font-weight:700; line-height:1.2; }
+.lyn_top_title .mtit.justy { letter-spacing:0.2em; }
+
+.lyn_bar_label { display:block; margin:0 auto; max-width:1280px; background-color:#ececec; }
+.lyn_bar_label .label { padding:5px 10px 6px 10px; text-align:center; font-size:16px; }
+
+/* 제품 */
+.prdt_items { margin:0 auto 80px; max-width:1280px; }
+.prdt_items:after { content:""; display:block; clear:both; }
+
+.prdt_mgt { float:left; display:block; width:25%; margin-bottom:10px; color:#464646; }
+.prdt_mgt .mg { display:block; }
+.prdt_mgt .mg img { display:block; margin:0 auto; max-width:100%; }
+.prdt_mgt .tx { color:#464646; text-align:center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+
+.foot_copyright { background:#f2f2f4; padding-bottom: 30px; }
+.foot_copyright .fcr_pivot { position:relative; padding:30px 0 50px 0; margin:0 auto; max-width:1280px; color:#555555; font-size:12px; text-align:center; }
+.foot_copyright .logo { display:block; margin:0 auto; overflow:hidden; text-indent:-9999px; }
+.foot_copyright .logo .acr { display:block; margin:0 auto; width:130px; height:19px; background:url("../images/logo_b1.png") no-repeat 50% 50%; background-size:contain; }
+.foot_copyright .addr { margin-top:15px; line-height:1.65; }
+.foot_copyright .addr a { color:#555555; }
+.foot_copyright .addr .grp { display:inline-block; margin-right:10px; }
+.foot_copyright .copy { margin-top:10px; color:#898989; }
+
+.foot_copyright .portfolio { width: 200px; height: 50px; margin: 0 auto 50px; font-size: 16px; font-weight: 500; text-align: center; line-height: 50px; border: 1px solid #c4c4c4; float: none; transition: .6s; }
+.foot_copyright .portfolio a { color: #464646; }
+.foot_copyright .portfolio:hover { background: #bead9b; }
+.foot_copyright .portfolio:hover a { color: #fff; }

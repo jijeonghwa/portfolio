@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta charset="utf-8">
+		<meta name="author" content="jijeonghwa">
+		<meta name="description" content="portfolio">
+		<meta name="keywords" content="portfolio, web, design, flexible">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>JAJU / Storage</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900" rel="stylesheet">
+		<link rel="stylesheet" href="common/reset.css">
+		<link rel="stylesheet" href="common/animate.css">
+		<link rel="stylesheet" href="css/jaju_style.css">
+		<link rel="stylesheet" href="css/jaju_storage.css">
+		<link rel="stylesheet" href="css/jaju_media_query_storage.css">
+		<script src="common/prefixfree.min.js"></script>
+		<script src="common/jquery-3.3.1.min.js"></script>
+		<script src="common/wow.min.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<div class="header_wrap">
+				<!-- 모바일 메뉴 -->
+				<div class="bars" data-click="false"><i class="fas fa-bars"></i></div>
+
+				<h1>
+					<a href="jaju.html"><img src="images/ico_logo-v2.png" alt="logo"></a>
+				</h1>
+				<nav>
+					<ul class="gnb">
+						<li class="menu"><a href="#">상품</a>
+							<div class="list_wrap">
+								<ul>
+									<li><a href="#">주방</a></li>
+									<li><a href="#">가구수납</a></li>
+									<li><a href="#">홈데코</a></li>
+								</ul>
+								<ul>
+									<li><a href="#">뷰티&헬스</a></li>
+									<li><a href="#">욕실</a></li>
+									<li><a href="#">침구</a></li>
+								</ul>
+								<ul>
+									<li><a href="#">키즈</a></li>
+									<li><a href="#">트래블</a></li>
+									<li><a href="#">식품</a></li>
+								</ul>
+								<ul>
+									<li><a href="#">패션</a></li>
+									<li><a href="#">언더웨어</a></li>
+									<li><a href="#">패션잡화</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="#">자주엔</a></li>
+						<li><a href="#">자주 상품 이야기</a></li>
+						<li><a href="#">생활팁</a></li>
+						<li><a href="#">비디오</a></li>
+						<li><a href="#">구매가이드</a></li>
+					</ul>
+					<div class="login-box">
+						<div class="icon"><i class="far fa-envelope fa-fw"></i></div>	
+						<div class="icon"><i class="far fa-user fa-fw"></i></div>
+						<div class="icon"><i class="fas fa-cart-plus fa-fw"></i></div>
+						<div class="search">
+							<div><i class="fas fa-search fa-fw"></i></div>
+							<div><input type="search" value=""></div>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="sub_bg"></div>
+		</header>		
+
+		<div class="wrap">
+			<ul class="mobile_menu">
+				<li class="product" data-click="false"><a href="#">상품 <span>＞</span></a></li>
+				<li><a href="#">자주엔</a></li>
+				<li><a href="#">자주 상품 이야기</a></li>
+				<li><a href="#">생활팁</a></li>
+				<li><a href="#">비디오</a></li>
+				<li><a href="#">구매가이드</a></li>
+			</ul>
+			<ul class="mobile_sub_menu">
+				<li><a href="#">주방</a></li>
+				<li><a href="#">가구수납</a></li>
+				<li><a href="#">홈데코</a></li>
+				<li><a href="#">뷰티&헬스</a></li>
+				<li><a href="#">욕실</a></li>
+				<li><a href="#">침구</a></li>
+				<li><a href="#">키즈</a></li>
+				<li><a href="#">트래블</a></li>
+				<li><a href="#">식품</a></li>
+				<li><a href="#">패션</a></li>
+				<li><a href="#">언더웨어</a></li>
+				<li><a href="#">패션잡화</a></li>
+			</ul>
+
+			<div class="main-image"></div>
+			
+			<h3>가구수납</h3>
+			<div class="list">
+				<div class="category">
+					<p class="lists list1" data-click="false">카테고리</p>
+					<ul class="sub sub1">
+						<li>옷장수납</li>
+						<li>주방수납</li>
+						<li>욕실수납/정리</li>
+						<li>햄퍼/바구니</li>
+						<li>플라스틱수납</li>
+						<li>와이어수납</li>
+						<li>화장대수납</li>
+						<li>데스크수납</li>
+						<li>키즈수납</li>
+						<li>서랍장/행거</li>
+						<li>테이블/스툴/체어</li>
+						<li>선반/현관수납</li>
+						<li>세트</li>
+					</ul>
+				</div>	
+				<div class="series">
+					<p class="lists list2" data-click="false">시리즈</p>
+					<ul class="sub sub2">
+						<li>하임</li>
+						<li>라탄</li>
+						<li>데일리</li>
+						<li>노블</li>
+						<li>쌓아쓰는</li>
+						<li>종이수납</li>
+						<li>네이처지끈</li>
+						<li>아크릴</li>
+						<li>레이스</li>
+					</ul>
+				</div>
+				<div class="material">
+					<p class="lists list3" data-click="false">재질</p>
+					<ul class="sub sub3">
+						<li>우드</li>
+						<li>플라스틱</li>
+						<li>아크릴</li>
+						<li>페브릭</li>
+						<li>멜라민</li>
+						<li>내추럴</li>
+						<li>메탈</li>
+						<li>도자기</li>
+						<li>프리미엄</li>
+						<li>기타</li>
+						<li>유리</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="products">
+				<div>
+					<div class="p-image"></div>
+					<h5>BEST</h5>
+					<p class="title">올스테인리스 식기건조대_51x35cm</p>
+					<p class="price">129,000원</p>
+					<p class="notes">★★★★★(18)</p>
+					<ul class="shop">
+						<li><i class="fas fa-eye fa-fw"></i></li>
+						<li><i class="fas fa-heart fa-fw"></i></li>
+						<li><i class="fas fa-shopping-basket fa-fw"></i></li>
+						<li><i class="fas fa-credit-card fa-fw"></i></li>
+					</ul>
+				</div>
+				<div>
+					<div class="p-image"></div>
+					<h4>NEW</h4>					
+					<p class="title">텐더 세탁 바구니_그레이</p>
+					<p class="price">13,900원</p>
+					<p class="notes">★★★★★(51)</p>
+					<ul class="shop">
+						<li><i class="fas fa-eye fa-fw"></i></li>
+						<li><i class="fas fa-heart fa-fw"></i></li>
+						<li><i class="fas fa-shopping-basket fa-fw"></i></li>
+						<li><i class="fas fa-credit-card fa-fw"></i></li>
+					</ul>
+				</div>
+				<div>
+					<div class="p-image"></div>
+					<h5>BEST</h5>
+					<p class="title">원형 수납 패브릭 스툴_민트</p>
+					<p class="price">59,900원</p>
+					<p class="notes">★★★★<span>★</span>(6)</p>
+					<ul class="shop">
+						<li><i class="fas fa-eye fa-fw"></i></li>
+						<li><i class="fas fa-heart fa-fw"></i></li>
+						<li><i class="fas fa-shopping-basket fa-fw"></i></li>
+						<li><i class="fas fa-credit-card fa-fw"></i></li>
+					</ul>
+				</div>
+				<div>
+					<div class="p-image"></div>
+					<h4>NEW</h4>
+					<p class="title">자주 담는 아카시아 바나나 걸이</p>
+					<p class="price">17,000원</p>
+					<p class="notes">★★★★★(13)</p>
+					<ul class="shop">
+						<li><i class="fas fa-eye fa-fw"></i></li>
+						<li><i class="fas fa-heart fa-fw"></i></li>
+						<li><i class="fas fa-shopping-basket fa-fw"></i></li>
+						<li><i class="fas fa-credit-card fa-fw"></i></li>
+					</ul>
+				</div>
+				<div>
+					<div class="p-image"></div>
+					<p class="title">허니 뱀부 2단 선반</p>
+					<p class="price">29,900원</p>
+					<p class="notes">★★★★★(7)</p>
+					<ul class="shop">
+						<li><i class="fas fa-eye fa-fw"></i></li>
+						<li><i class="fas fa-heart fa-fw"></i></li>
+						<li><i class="fas fa-shopping-basket fa-fw"></i></li>
+						<li><i class="fas fa-credit-card fa-fw"></i></li>
+					</ul>
+				</div>
+				<div>
+					<div class="p-image"></div>
+					<h6>SALE</h6>
+					<p class="title">쌓아쓰는 거울 액세서리함_그레이</p>
+					<p class="price"><span>29,900원</span> / 19,900원</p>
+					<p class="notes">★★★★<span>★</span>(1)</p>
+					<ul class="shop">
+						<li><i class="fas fa-eye fa-fw"></i></li>
+						<li><i class="fas fa-heart fa-fw"></i></li>
+						<li><i class="fas fa-shopping-basket fa-fw"></i></li>
+						<li><i class="fas fa-credit-card fa-fw"></i></li>
+					</ul>
+				</div>
+				<div>
+					<div class="p-image"></div>
+					<h4>NEW</h4>
+					<p class="title">페퍼 휴지 케이스</p>
+					<p class="price">9,900원</p>
+					<p class="notes">★★★★★(1)</p>
+					<ul class="shop">
+						<li><i class="fas fa-eye fa-fw"></i></li>
+						<li><i class="fas fa-heart fa-fw"></i></li>
+						<li><i class="fas fa-shopping-basket fa-fw"></i></li>
+						<li><i class="fas fa-credit-card fa-fw"></i></li>
+					</ul>
+				</div>
+				<div>
+					<div class="p-image"></div>
+					<h5>BEST</h5>
+					<p class="title">스테인리스 프라이팬 정리대</p>
+					<p class="price">29,900원</p>
+					<p class="notes">★★★★★(12)</p>
+					<ul class="shop">
+						<li><i class="fas fa-eye fa-fw"></i></li>
+						<li><i class="fas fa-heart fa-fw"></i></li>
+						<li><i class="fas fa-shopping-basket fa-fw"></i></li>
+						<li><i class="fas fa-credit-card fa-fw"></i></li>
+					</ul>
+				</div>
+				<div>
+					<div class="p-image"></div>
+					<h4>NEW</h4>
+					<p class="title">폴딩 세탁 햄퍼_그레이</p>
+					<p class="price">29,900원</p>
+					<p class="notes">★★★★<span>★</span>(7)</p>
+					<ul class="shop">
+						<li><i class="fas fa-eye fa-fw"></i></li>
+						<li><i class="fas fa-heart fa-fw"></i></li>
+						<li><i class="fas fa-shopping-basket fa-fw"></i></li>
+						<li><i class="fas fa-credit-card fa-fw"></i></li>
+					</ul>
+				</div>
+				<div>
+					<div class="p-image"></div>
+					<h6>SALE</h6>
+					<p class="title">발리 라탄 바스켓_34x26x16cm 내추럴</p>
+					<p class="price"><span>59,900원</span> / 49,900원</p>
+					<p class="notes"><span>★★★★★</span>(0)</p>
+					<ul class="shop">
+						<li><i class="fas fa-eye fa-fw"></i></li>
+						<li><i class="fas fa-heart fa-fw"></i></li>
+						<li><i class="fas fa-shopping-basket fa-fw"></i></li>
+						<li><i class="fas fa-credit-card fa-fw"></i></li>
+					</ul>
+				</div>
+				<div>
+					<div class="p-image"></div>
+					<h6>SALE</h6>
+					<p class="title">슬림 세라믹 디스펜서</p>
+					<p class="price"><span>13,900원</span> / 7,900원</p>
+					<p class="notes"><span>★★★★★</span>(0)</p>
+					<ul class="shop">
+						<li><i class="fas fa-eye fa-fw"></i></li>
+						<li><i class="fas fa-heart fa-fw"></i></li>
+						<li><i class="fas fa-shopping-basket fa-fw"></i></li>
+						<li><i class="fas fa-credit-card fa-fw"></i></li>
+					</ul>
+				</div>
+				<div>
+					<div class="p-image"></div>
+					<h4>NEW</h4>
+					<p class="title">손잡이 다용도 접이상_59x45cm</p>
+					<p class="price">29,900원</p>
+					<p class="notes">★★★★★(1)</p>
+					<ul class="shop">
+						<li><i class="fas fa-eye fa-fw"></i></li>
+						<li><i class="fas fa-heart fa-fw"></i></li>
+						<li><i class="fas fa-shopping-basket fa-fw"></i></li>
+						<li><i class="fas fa-credit-card fa-fw"></i></li>
+					</ul>
+				</div>
+				<div>
+					<div class="p-image"></div>
+					<h5>BEST</h5>
+					<p class="title">크러쉬 스툴 26x21x39cm_베이지</p>
+					<p class="price">13,900원</p>
+					<p class="notes">★★★★★(11)</p>
+					<ul class="shop">
+						<li><i class="fas fa-eye fa-fw"></i></li>
+						<li><i class="fas fa-heart fa-fw"></i></li>
+						<li><i class="fas fa-shopping-basket fa-fw"></i></li>
+						<li><i class="fas fa-credit-card fa-fw"></i></li>
+					</ul>
+				</div>
+				<div>
+					<div class="p-image"></div>
+					<h4>NEW</h4>
+					<p class="title">PVC 옷걸이_8P</p>
+					<p class="price">6,900원</p>
+					<p class="notes">★<span>★★★★</span>(1)</p>
+					<ul class="shop">
+						<li><i class="fas fa-eye fa-fw"></i></li>
+						<li><i class="fas fa-heart fa-fw"></i></li>
+						<li><i class="fas fa-shopping-basket fa-fw"></i></li>
+						<li><i class="fas fa-credit-card fa-fw"></i></li>
+					</ul>
+				</div>
+				<div>
+					<div class="p-image"></div>
+					<h4>NEW</h4>
+					<p class="title">와이어 바스켓 34x26x16CM_아이보리</p>
+					<p class="price">15,900원</p>
+					<p class="notes"><span>★★★★★</span>(0)</p>
+					<ul class="shop">
+						<li><i class="fas fa-eye fa-fw"></i></li>
+						<li><i class="fas fa-heart fa-fw"></i></li>
+						<li><i class="fas fa-shopping-basket fa-fw"></i></li>
+						<li><i class="fas fa-credit-card fa-fw"></i></li>
+					</ul>
+				</div>
+				<div>
+					<div class="p-image"></div>
+					<h5>BEST</h5>
+					<p class="title">네오 주걱 꽂이 세트</p>
+					<p class="price">9,900원</p>
+					<p class="notes"><span>★★★★★</span>(0)</p>
+					<ul class="shop">
+						<li><i class="fas fa-eye fa-fw"></i></li>
+						<li><i class="fas fa-heart fa-fw"></i></li>
+						<li><i class="fas fa-shopping-basket fa-fw"></i></li>
+						<li><i class="fas fa-credit-card fa-fw"></i></li>
+					</ul>
+				</div>	
+			</div>
+
+			<div class="more">더 보기</div>
+
+			<div class="top">
+				<a href="#"><i class="fas fa-chevron-up"></i></a>
+			</div>
+		</div>
+
+
+
+		<div class="login_wrap">
+			<div class="login">
+				<div class="sns">
+					<div><span>CONNECT</span></div>
+					<div class="social">
+						<div><a href="https://www.facebook.com/sivillage" target="_blank"><i class="fab fa-facebook"></i></a></div>
+						<div><a href="https://www.instagram.com/sivillage" target="_blank"><i class="fab fa-instagram"></i></a></div>
+					</div>
+				</div>
+				<div class="newsletter">
+					<div><span>자주엔 구독 신청하기</span></div>
+					<div class="form">
+						<div class="mail"><input type="email" name="email" maxlength="50" placeholder="EMAIL ADDRESS"></div>
+						<div class="btn">SIGN UP</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="footer_wrap">
+				<div class="logo"></div>
+				<ul class="content1">
+					<li><a href="#">로그인</a></li>
+					<li><a href="#">회원가입</a></li>
+					<li><a href="#">아이디/비밀번호 찾기</a></li>
+					<li><a href="#">고객센터</a></li>
+					<li><a href="#">쇼핑가이드</a></li>
+				</ul>
+				<ul class="content2">
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">회사소개</a></li>
+					<li><a href="#">공지사항</a></li>
+					<li><a href="#">매장안내</a></li>
+					<li><a href="#">자주이야기</a></li>
+				</ul>
+				<ul class="content3">
+					<li><a href="#">이용약관</a></li>
+					<li><a href="#">개인정보처리방침</a></li>
+				</ul>
+
+				<p>&copy; 2016 SHINSEGAE INTERNATIONAL. ALL RIGHTS RESERVED</p>
+
+				<div class="portfolio"><a href="index.html">포트폴리오 바로가기</a></div>
+			</div>
+		</footer>
+		<script src="js/jaju_storage.js"></script>
+	</body>
+</html>

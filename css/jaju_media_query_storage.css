@@ -1,0 +1,109 @@
+/* 타블릿 피씨 */
+@media screen and (min-width:769px) and (max-width:1024px) {
+	/* header */
+	header .header_wrap { width: 980px; }
+	.gnb > li { padding: 0 15px; }
+
+	/* 메인 이미지 */
+	.main-image { height: 450px; }
+
+	/* 카테고리 */
+	.list { width: 940px; }
+	.category, .series, .material { width: 310px; }
+
+	/* 제품 */
+	.products { width: 960px; height: 1560px; margin: 80px auto 0; overflow: hidden; }
+	.products > div { width: 240px; height: 390px; padding: 10px 0 85px; }
+	.products > div > .p-image { width: 220px; height: 220px; margin: 0 10px 10px; }
+	.products ul { top: 175px; }
+	.products ul > li { width: 35px; height: 35px; margin: 7.5px; background: #333; border-radius: 50%; text-align: center; float: left; }
+	.products ul > li > i { color: #fff; line-height: 35px; }
+
+	/* 로그인 */
+	.login { width: 749px; }
+	.sns {  width: 250px; }
+
+	.footer_wrap { width: 749px; }
+	.footer_wrap .logo { margin-right: 165px; }
+}
+
+/* 모바일 */
+@media screen and (max-width:768px) {
+	/* header */
+	header .header_wrap { width: 100%; position: relative; }
+	.gnb { display: none; }
+	.login-box div:nth-child(1), .login-box div:nth-child(4) { display: none; }
+	.bars { display: block; float: left; }
+	.bars i { font-size: 18px; line-height: 59px; padding: 0 15px; }
+	.icon:nth-child(3):after { content: ""; }
+	h1 { width: 80px; height: 20px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+	h1 img { width: 80px; height: 20px; }
+	.login-box { line-height: 59px; }
+	.login-box div { float: left; line-height: 59px; }
+	.login-box i { font-size: 18px; padding: 0 15px; }
+
+	/* 모바일 메뉴 */
+	.mobile_menu { width: 100%; height: 100%; position: absolute; top: 59px; z-index: 998; background: rgba(255,255,255,.9); padding: 30px 0 0 15px; }
+	.mobile_menu a { color: #5f5f5f; }
+	.mobile_menu li { height: 60px; }
+	.mobile_menu span { font-size: 11px; padding-left: 10px; }
+
+	.mobile_sub_menu { width: 55%; height: 100%; position: absolute; top: 59px; right: 0; z-index: 999; background: #aaa; padding: 30px 15px 0 15px; }
+	.mobile_sub_menu a { color: #fff; }
+	.mobile_sub_menu li { height: 45px; }
+
+	/* 메인 이미지 */
+	.main-image { height: 300px; }
+
+	/* 카테고리 */
+	h3 { font-size: 20px; margin: 50px 0 10px 0; }
+	.list { width: 100%; border-left: 0; border-right: 0; }
+	.category, .series, .material { width: 33.333%; }
+	.lists { border-right: 0; }
+
+	/* 제품 */
+	.products { width: 100%; height: 2800px; margin: 0 auto; }
+	.products > div { width: 50%; height: 350px; padding: 0; border: 0; }
+	.products > div > .p-image { width: 100%; height: 55%; margin: 0 0 10px 0;  }
+	.products > div:hover { border: 0; }
+	.products ul { width: 200px; height: 50px; margin: 0 auto; float: none; position: absolute; left: 5px; top: 150px; transform: translate(0); opacity: 1; }
+	.products ul > li { width: 25px; height: 25px; background: #fff; }
+	.products ul > li:nth-child(1),
+	.products ul > li:nth-child(2),
+	.products ul > li:nth-child(4)
+	{ display: none; }
+	.products ul > li > i { font-size: 13px; color: #333; line-height: 25px; }
+
+	/* 로그인 */
+	.login_wrap { height: 230px; line-height: 60px; }
+	.login { width: 100%; margin: 0 auto; }
+	.sns { width: 100%; height: 60px; float: none; }
+	.sns div { text-align: center; }
+	.sns > div { float: none; }
+	.social { width: 100px; height: 30px; margin: 10px auto; line-height: 0; }
+	.social div:nth-child(1), .social div:nth-child(2) { width: 50px; height: 30px; float: left; }
+	.sns span { padding-right: 0; letter-spacing: 3; }
+	.sns i { font-size: 30px; padding-right: 0; text-align: center; line-height: 0; }
+
+	.newsletter { width: 100%; float: none; overflow: hidden; }
+	.newsletter div:first-child { height: 40px; text-align: center; float: none; }
+	/*.newsletter div:nth-child(2), .newsletter div:nth-child(3) { line-height: 65px; }*/
+	.newsletter .form { width: 281px; height: 40px; margin: 20px auto; float: none; }
+	.newsletter .form .mail { float: left; line-height: 0; }
+	.newsletter span { padding-right: 0; text-align: center; }
+	.newsletter input { width: 200px; height: 35px; }
+	.newsletter .btn { float: left; margin-top: 0; }
+
+	footer { height: 310px; padding-top: 15px; font-size: 11px; }
+	.footer_wrap { width: 100%; margin: 0 auto; }
+	.footer_wrap div, ul { float: none; }
+	.footer_wrap .logo { display: none; }
+	.footer_wrap .content1 { display: none; }
+	.footer_wrap .content2 { width: 305px; height: 20px; margin: 0 auto 10px; }
+	.footer_wrap .content2 li { width: auto; padding: 0 8px; display: inline; }
+	.footer_wrap .content3 { width: 168px; height: 20px; margin: 0 auto 60px; }
+	.footer_wrap .content3 li { width: auto; padding: 0 8px; display: inline; }
+
+	.footer_wrap p { font-size: 9px; }
+	.footer_wrap .portfolio { margin: 50px auto 30px; }	
+}

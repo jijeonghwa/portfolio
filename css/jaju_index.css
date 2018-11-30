@@ -1,0 +1,97 @@
+/* 메인 슬라이드 */
+.wrap { width: 100%; height: 100%; overflow: hidden; position: relative; }
+
+/* 모바일 메뉴 */
+.bars, .mobile_menu, .mobile_sub_menu { display: none; }
+
+/* 메인 슬라이드 이미지 */
+#mainvisual { width: 100%; height: 100%; }
+#mainvisual div { width: 100%; height: 100%; background-size: cover; background-position: 50%; }
+#mainvisual .i1 { background-image: url(../images/top_01.jpg); }
+#mainvisual .i2 { background-image: url(../images/top_02.jpg); }
+#mainvisual .i3 { background-image: url(../images/top_03.jpg); }
+#mainvisual .i4 { background-image: url(../images/top_04.jpg); }
+#mainvisual .i5 { background-image: url(../images/top_05.jpg); }
+#mainvisual > button { display: none !important; }
+
+/* 이미지 하단 버튼 */
+#btn { margin: 0 auto; font-size: 20px; }
+#btn li:hover { cursor: pointer; }
+
+/* 상단으로 이동 */
+.wrap .top { width: 40px; height: 40px; border-radius: 50%; background: #c7c7c7; position: fixed; bottom: 50px; right: 15px; z-index: 1000; }
+.wrap .top a { font-size: 18px; color: #fff; }
+.wrap .top i { line-height: 40px; padding-left: 12.125px; }
+
+h2, h3 { text-align: center; letter-spacing: 2px; }
+h2 { width: 100px; height: 100px; margin: 160px auto 20px; background: url(../images/jaju_logo.png); background-size: cover; }
+h3 { font-size: 20px; margin: 0 0 180px 0; letter-spacing: 5px; }
+
+/* 중간 이미지 */
+.imgG_wrap { width: 100%; height: 881px; }
+
+.imgGL { width: 50%; height: 881px; float: left; }
+.imgGL div { float: left; }
+.imgGL > div { overflow: hidden; position: relative; background-size: cover; background-position: 50%; }
+.img1 { width: 100%; height: 538px; background-image: url(../images/imgG1.jpg) }
+.img2 { width: 50%; height: 343px; background-image: url(../images/imgG2.jpg) }
+.img3 { width: 50%; height: 343px; background-image: url(../images/imgG3.jpg) }
+.img3 .app { position: absolute; top: 0; left: 0; }
+.imgGL div { transition: .5s; }
+.imgGL div:hover { opacity: .8; }
+
+.discription { width: 180px; height: 55px; position: absolute; left: 30px; bottom: 30px; font-weight: 400; line-height: 1.6; background: rgba(255,255,255,.7); }
+.imgG_wrap .txt1 { font-size: 12px; text-indent: 10px; padding-top: 6px; }
+.imgG_wrap .txt2 { font-size: 15px; text-indent: 10px; }
+.discription a { color: #5f5f5f; }
+.discription p:last-child a { color: #333; }
+.discription a:hover { cursor: pointer; color: #000; }
+
+
+.imgGR { width: 50%; height: 881px; float: left; }
+.imgGR div { float: left; }
+.imgGR > div { overflow: hidden; position: relative; background-size: cover; background-position: 50%; }
+.img4 { width: 50%; height: 343px; background-image: url(../images/imgG4.jpg) }
+.img5 { width: 50%; height: 343px; background-image: url(../images/imgG5.jpg) }
+.img5 .app { position: absolute; top: 0; left: 0; }
+.img6 { width: 100%; height: 538px; background-image: url(../images/imgG6.jpg) }
+.imgGR div { transition: .5s; }
+.imgGR div:hover { opacity: .8; }
+
+h4 { width: 350px; height: 60px; font-size: 22px; margin: 150px auto 80px; letter-spacing: 5px; line-height: 60px; text-align: center; clear: both; border-top: 1px solid #c4c4c4; border-bottom: 1px solid #c4c4c4; }
+
+/* 지금 뜨고 있는 상품들 */
+.img_wrap { width: 100%; height: 557px; }
+.imgL { width: 44%; height: 557px; margin: 0 1.5% 0 4.5%; float: left; overflow: hidden; position: relative; }
+.imgL div { width: 100%; height: 557px; background-size: cover; background-position: 50%; position: relative; float: left; }
+.imgL1 { background-image: url(../images/imgL-1.jpg); }
+.imgL2 { background-image: url(../images/imgL-2.jpg); }
+.imgL3 { background-image: url(../images/imgL-3.jpg); }
+
+.imgR { width: 44%; height: 557px; margin: 0 4.5% 0 1.5%; float: left; overflow: hidden; position: relative; }
+.imgR div { width: 100%; height: 557px; background-size: cover; background-position: 50%; position: relative; }
+.imgR1 { background-image: url(../images/imgR-1.jpg); }
+.imgR2 { background-image: url(../images/imgR-2.jpg); }
+.imgR3 { background-image: url(../images/imgR-3.jpg); }
+
+.img_wrap p { font-size: 16px; font-weight: 400; text-align: center; line-height: 1.8; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(7,7,7,.6); padding: 10px 20px; }
+.img_wrap p span { font-size: 19px; }
+.img_wrap a { color: #fff; }
+
+/* 소식 */
+.news { width: 100%; height: 192px; margin: 163px 0 120px 0; font-size: 14px; line-height: 63px; }
+.contents { width: 53%; margin: 0 23.5%; border-top: 1px solid #c4c4c4; }
+.contents li { width: 100%; height: 63px; border-bottom: 1px solid #c4c4c4; }
+.contents li div { float: left; }
+.contents li i { line-height: 63px; color: #5f5f5f; }
+.contents .boxL { width: 13%; font-weight: 500; text-align: center; }
+.contents .boxL a { color: #fff; }
+.club .boxL { background: #d8d2d2; }
+.magazine .boxL { background: #9098a5; }
+.outlet .boxL { background: #aaa; }
+.contents .boxR { width: 84%; text-indent: 20px; }
+
+.contents a { color: #5f5f5f; }
+.contents a:hover { color: #000; }
+.contents .boxR a:hover { text-decoration: underline; }
+.contents i:hover { color: #000; }

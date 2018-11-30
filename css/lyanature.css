@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body { font-family: 'Noto Sans KR', AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif; font-weight: 300; position: relative; color: #464646; overflow-x: hidden; overflow-y: auto; }
+
+/* 로고 */
+h1 { position: fixed; top: 30px; left: 50%; transform: translateX(-50%); z-index:999; }
+h1 img { width: 136px; }
+
+/* 메뉴 */
+nav { width: 783px; height: 20px; transform: rotate(-90deg); transform-origin: 100% 100%; position: fixed; top: 6%; right: 60px; z-index: 999; }
+nav ul li { float: right; font-size: 14px; font-weight: 400; text-align: center; padding-right: 40px; }
+nav ul li a { color: #464646; }
+nav li.on a, nav li:hover a { color: #fff; }
+nav li.on div, nav li:hover div { background: #fff; }
+nav ul li:first-child { padding-right: 0; }
+nav ul li div { height: 1px; margin-top: 5px; background: #464646; }
+
+/* 스크롤 아이콘 */
+.scroll-wrap { position: fixed; left: 50%; bottom: 30px; transform: translateX(-50%); z-index: 996; }
+span { width: 30px; height: 30px; display: block; position: relative; margin-bottom: 30px; } 
+.scroll { overflow: hidden; height: 25px; }
+.scroll:before {content: ''; width: 15px; height: 15px; display:block; border: 2px solid #464646; border-right-width: 0; border-top-width: 0; transform: rotate(-45deg); position: absolute; bottom: 7px; left: 7px; }
+.scroll-wrap p { font-size: 14px; text-align: center; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); }
+
+/* 포트폴리오 바로가기 */
+.portfolio { width: 120px; height: 120px; font-weight: 500; text-align: center; line-height: 1.6; padding: 35.5px 0; box-sizing: border-box; border: 1px solid #c4c4c4; border-radius: 50%; transition: .6s; position: fixed; top: 50%; left: 60px; transform: translateY(-50%); z-index: 998; }
+.portfolio a { color: #464646; }
+.portfolio:hover { background: #bead9b; }
+.portfolio:hover a { color: #fff; }
+
+.circle-S { width: 239px; height: 239px; background: #ebebeb; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); border-radius: 50%; z-index: 997; }
+
+/* 원형 이미지 */
+article { width: 100%; height: 900px; background: #ebebeb; position: relative; }
+article div { width: 540px; height: 540px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); border-radius: 50%; overflow: hidden; }
+article div > img { display: inline-block; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 1920px; height: 1080px; }
+article h2 { font-size: 40px; position:absolute; top: 44%; left: 50%; font-weight: 500; z-index: 998; }
+article ul { font-size: 18px; font-weight: 400; position:absolute; top: 50%; left: 50%; line-height: 1.6; z-index: 998; }
+article a { color: #464646; }
+article a:hover { color: #fff; }
