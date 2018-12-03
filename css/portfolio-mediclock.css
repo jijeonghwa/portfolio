@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+body { font-family: 'Noto Sans KR', AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif; font-weight: 300; position: relative; }
+
+/* leftSide */
+.leftSide { width: 90%; height: 100%; overflow: hidden; border-right: 1px solid; box-sizing: border-box; }
+header { width: 100%; height: 450px; overflow: hidden; }
+h2 { margin: 40px 0 0 2%; }
+h3 { height: 59px; transform-origin: 0% 100%; transform: rotate(90deg); font-size: 20px; line-height: 59px; margin-left: 2%; letter-spacing: 2px; text-indent: -40px; }
+
+.container { width: 96%; margin: 0 2%; overflow: hidden; }
+
+.container-left { width: 28%; height: 815px; margin: 0 1% 0 2%; float: left; }
+
+.container-right { width: 66%; margin: 0 2% 0 1%; float: left; }
+
+.container-right .project { width: 100%; height: 265px; }
+.container-right .project-order { font-size: 20px; letter-spacing: 10px; margin-bottom: 66px; }
+.container-right .project-title { font-size: 50px; font-weight: 500; margin-bottom: 37px;}
+.container-right .project > .line1 { width: 1367px; height: 3px; background: #000; float: left; }
+
+.container-right .description { width: 100%; height: 550px; line-height: 1.6; }
+.container-right .description-left { width: 41.4%; margin-right: 3.1%; float: left; }
+.container-right .description-right { width: 55.5%; float: left; }
+.container-right .description .bold { font-weight: 500; margin-bottom: 15px; }
+.container-right .description .bold3 { margin-top: 98px; }
+.container-right .description-right p:nth-of-type(4) { text-align: justify; }
+.container-right .description-right p:nth-of-type(5) { padding-top: 20px; text-align: justify; }
+
+.container .view { width: 360px; height: 160px; padding: 10px; border: 1px solid #000; font-size: 18px; font-weight: 500; text-align: center; overflow: hidden; float: right; margin: 150px 0 150px; }
+.container .view > p { width: 200px; line-height: 160px; float: left; }
+.container .view > p a { color: #000; }
+.container .view > p a:hover { text-decoration: line-through; }
+.container .view > div { width: 160px; height: 160px; background: url(../images/QRCode_mediclock.jpg) no-repeat; background-size: cover; background-position: 50%; float: right; }
+
+/* footer */
+footer { width: 96%; height: 100px; border-top: 1px solid; margin: 0 2%; padding-top: 20px; font-size: 12px; }
+
+
+
+/* rightSide */
+.rightSide { position: absolute; top: 0; right: 0; width: 10%; }
+
+.menu { width: 100%; }
+.menu_open { width: 59px; height: 59px; background: url(../images/menu.png) no-repeat; background-size: cover; margin: 40px 0 0 10%; transition: .6s; z-index: 999; }
+.menu_close { width: 59px; height: 59px; background: url(../images/menu.png) no-repeat; background-size: cover; margin: 40px 0 0 10%; transition: .6s; z-index: 999; display: none; }
+.menu div:hover { transform: rotate(90deg); }
+
+.profile { width: 98%; padding: 101px 0 0 2%; line-height: 1.6; display: none; }
+.profile p:nth-child(1) { font-weight: 500; padding-bottom: 20px; }
+.profile p:nth-child(1) span { font-weight: 300; }
+.profile p:nth-child(2) { line-height: 1.4; }
+.profile p:nth-child(2) span { font-weight: 500; line-height: 3; }
+.profile ul { font-weight: 500; margin-top: 65px; }
+.profile ul span { color: #c7c7c7; }
+.profile ul.certificate { margin-top: 30px; }
+.profile ul > li { font-size: 14px; font-weight: 300; line-height: 1.4; }
+.profile ul > li:first-child { margin-top: 10px; }
+.profile p.contact { padding-top: 65px; }
+
+
+
+/* 모바일 */
+@media screen and (max-width:768px) {
+	/* leftSide */
+	.leftSide { width: 100%; border: none; }
+	header { width: 92.8%; height: 250px; margin: 0 3.6%; }
+	h2 { margin-top: 30px; }
+	h2 img { width: 40px; height: 40px; }
+	h3 { height: 40px; transform-origin: 0% 100%; transform: rotate(90deg); font-size: 16px; line-height: 40px; letter-spacing: 2px; text-indent: -30px; }
+/**********************************************************************/
+
+	.container { width: 92.8%; margin: 0 3.6%; }
+
+	.container .view { width: 200px; height: 50px; padding: 0; font-size: 16px; margin: 60px 0 60px; }
+	.container .view > p { line-height: 50px; float: none; }
+	.container .view > div { display: none; }
+
+/**********************************************************************/
+
+	footer { width: 92.8%; height: 80px; margin: 0 3.6%; }
+
+	.rightSide { display: none; }
+}
